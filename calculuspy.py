@@ -6,6 +6,15 @@ from os import *
 hasil = "Hasil nya adalah "
 init_printing(use_unicode=True)
 
+def help ():
+	print("tambah => (+) => 2x+3")
+	print("pengurangan => (-) =>  2x-3")
+	print("perkalian => (*) => 2x*3")
+	print("pembagian atau pecahan => (/) => 2x/3x")
+	print("pangkat => (**) => 2x**2")
+	print("akar pangkat 2 => (**(1/2)) => 4x**(1/2)")
+	print ("akar pangkat n => (**(1/n)) => 4x**(1/3)")
+	
 def logo():
 	print("┌( ͝° ͜ʖ͡°)=ε/̵͇̿̿/’̿’̿ ̿")
 	print("─=≡Σ((( つ◕ل͜◕)つ")
@@ -30,6 +39,8 @@ def task():
 	print("By. Heru Triana")
 	garis()
 	logo()
+	garis()
+	help()
 	garis()
 	print("[1]. turunan")
 	print("[2]. integral 1")
